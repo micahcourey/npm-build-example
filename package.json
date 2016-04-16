@@ -1,0 +1,23 @@
+{
+  "name": "npm-build-example",
+  "version": "1.0.0",
+  "description": "A small demo site for my npm scripting adventures.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test -u bdd -R spec",
+    "start": "echo \"Running start script\"",
+    "stop": "echo \"Running stop script\"",
+    "restart": "echo \"Running restart script\"",
+    "start:dev": "echo \"Running start:dev script\""
+  },
+  "keywords": [
+    "npm",
+    "scripting"
+  ],
+  "author": "Micah Courey",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "should": "^8.3.1"
+  }
+}
